@@ -170,10 +170,10 @@ img {
   grid-row: span 2;
 }
 
-.gallery-item:nth-of-type(5){
-  order: 1;
+.gallery-item:nth-of-type(5) {
   grid-column: span 3;
-  height: 300px;
+  order : 1;
+  height: 400px;
 }
 
 /* Footer */
@@ -304,11 +304,11 @@ img {
     grid-row: span 1;
   }
 
-  .gallery-item:nth-of-type(5){
-  order: 0;
-  grid-column: 2/3 ;
+  .gallery-item:nth-of-type(5) {
+  grid-column: 2/3;
+  order : 0;
   height: 100%;
-}
+  }
 
   .footer .footer-flex {
     text-align: center;
